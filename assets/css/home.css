@@ -1,0 +1,91 @@
+
+
+
+/*................. Services Section .................... */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    height: 400px;
+    width: 400px;
+    padding: 34px;
+    margin: 2px 10px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+   transition: 0.5s ease-in;
+}
+#services .box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    transition: 0.5s ease;
+} 
+#services .box h2:hover{
+    background-color: white;
+    cursor: pointer;
+}
+/*................. Services Section .................... */
+
+
+/*.......................outlets  .............................*/
+#outlets{
+    margin: 10px;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+#outlets .box{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    margin: 2px 25px;
+
+}
+#outlets .box img{ 
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+
+ #outlets .box img:hover{
+    transform: scale(1.1);  /* zoom in the image upto 30% */
+    cursor: pointer;
+ }
+ #outlets .box h2{
+   transition: 0.5s ease; 
+
+}
+#outlets .box h2:hover{
+  border-bottom: 2px solid black;
+  transition: color 1s;
+  opacity: 0.8s;
+}
+/*.......................outlets  .............................*/
+
+
+
+
+/*....................about-company ........................*/
+
+
+
+ /* ...................... footer  ....................   */
+

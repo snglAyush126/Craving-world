@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  #pizza-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #pizza-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-button,
+  .remove-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+  }
+  
+  #order-summary {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #order-summary li {
+    margin-bottom: 10px;
+  }
+  

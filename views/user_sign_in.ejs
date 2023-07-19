@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Sign In</title> -->
+   
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign In</h1>
+      <form class="signin-form" action="/users/create-session" method="post">
+        <div class="form-group">
+          <input class="form-input" type="email" name="email" value="" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input class="form-input" type="password" name="password" value="" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+          <input class="form-submit" type="submit" value="Sign in">
+        </div>
+      </form>
+      <div class="signup-link">
+        <a href="/users/sign-up">Make a new Account</a>
+      </div>
+    </div>
+  </body>
+  </html>
+  
